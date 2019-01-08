@@ -1,1 +1,8 @@
-console.log('hello world from nodejs');
+import fs from 'fs';
+
+export default firstApp  =>
+{
+    console.log('Hello world from nodejs');
+
+    fs.writeFileSync("firstApp/helloWorld.txt","Hello world from Node JS to file");
+}
