@@ -4,7 +4,7 @@
   "description": "creating a series of small node projects",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
+    "start": "nodemon --exec babel-node $FILE",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/ZechariahMcPherson/node-projects.git",

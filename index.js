@@ -1,3 +1,1 @@
-import helloWorld from './firstApp/first-app.js';
-
-helloWorld();
+console.log('Hello world file /index.js from nodejs');
