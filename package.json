@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node --extensions '.ts' $FILE",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --fix --project '.'"
   },
   "repository": "https://github.com/ZechariahMcPherson/node-projects.git",
   "author": "G. Zechariah McPherson",
@@ -19,6 +20,7 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-typescript": "^7.1.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "tslint": "^5.12.1"
   }
 }
