@@ -1,6 +1,6 @@
-import { createServer } from "http";
+import { createServer } from 'http';
 
-import { requestHandler } from "./routes";
+import { requestHandler } from './routes';
 
 const server = createServer(requestHandler);
 
